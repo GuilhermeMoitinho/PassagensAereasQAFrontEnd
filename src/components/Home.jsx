@@ -57,7 +57,7 @@ const Home = () => {
             <button onClick={EfetuarRequestAeroportos}>Ver todos os aeroportos</button>
             <div>
                 {dadosAeroporto.length > 0 ? (
-                    <button onClick={FecharAeroportosDisponiveis}>Fechar</button>
+                    <button className='SubirBtn' onClick={FecharAeroportosDisponiveis}>Fechar</button>
                     
                 ) : (
                     <p></p>
