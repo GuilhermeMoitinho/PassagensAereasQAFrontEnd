@@ -1,8 +1,29 @@
-# React + Vite
+# Documentação Frontend - Consumo da API BackEndAeroQA com React
+# Projeto ainda em andamento.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Visão Geral
+Desafio HORIZON. Esta documentação descreve como o frontend consome a API BackEndAeroQA utilizando a biblioteca React. São fornecidas instruções e explicações sobre as principais funcionalidades implementadas no frontend.
 
-Currently, two official plugins are available:
+## Status do Projeto
+O projeto está atualmente em desenvolvimento. Para testá-lo, você pode acessar a versão mais recente [aqui](https://passagensaereashorizon.vercel.app), pois foi implantado usando Vercel.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Autenticação
+A autenticação é realizada através do endpoint `/api/usuario/login`. O token JWT retornado é armazenado no local storage para autenticação subsequente.
+
+## Rotas Protegidas
+Rotas protegidas são implementadas usando o componente PrivateRoute, verificando a autenticação antes de renderizar a rota.
+
+## Consumo de Dados da API
+As funções axios são utilizadas para realizar requisições à API. Cada função corresponde a uma operação específica.
+
+## Componentes de Páginas
+Os componentes de páginas são responsáveis por renderizar as diferentes páginas da aplicação.
+
+## Edição de Voo
+A edição de um voo é realizada através da página EditarVoo. Os detalhes do voo são carregados e, após a edição, os dados atualizados são enviados à API.
+
+## Cadastro de Passageiro
+O cadastro de passageiro é realizado através da página CadastroDePassageiro. Os dados são enviados à API para persistência.
+
+## Conclusão
+Esta documentação fornece uma visão abrangente de como o frontend consome a API BackEndAeroQA usando React. Certifique-se de seguir as boas práticas de desenvolvimento e implementar tratamentos de erro apropriados para uma experiência do usuário robusta e confiável.
