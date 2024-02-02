@@ -1,8 +1,8 @@
-# Documentação Frontend - Consumo da API BackEndAeroQA com React
+# Documentação Frontend - Consumo da API BackEndAeroQA com React e Vite
 # Projeto ainda em andamento.
 
 ## Visão Geral
-Desafio HORIZON. Esta documentação descreve como o frontend consome a API BackEndAeroQA utilizando a biblioteca React. São fornecidas instruções e explicações sobre as principais funcionalidades implementadas no frontend.
+Desafio HORIZON. Esta documentação descreve como o frontend consome a API BackEndAeroQA utilizando as bibliotecas React e Vite. São fornecidas instruções e explicações sobre as principais funcionalidades implementadas no frontend.
 
 ## Status do Projeto
 O projeto está atualmente em desenvolvimento. Para testá-lo, você pode acessar a versão mais recente [aqui](https://passagensaereashorizon.vercel.app), pois foi implantado usando Vercel.
