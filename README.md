@@ -30,6 +30,16 @@ Para testar a autenticação de gestor, utilize as seguintes credenciais:
 - **Email:** gestao@gmail.com.br
 - **Senha:** GuilhermeMoitinhoNovoContratado
 
-## Conclusão
-Esta documentação fornece uma visão abrangente de como o frontend consome a API BackEndAeroQA usando React. Certifique-se de seguir as boas práticas de desenvolvimento e implementar tratamentos de erro apropriados para uma experiência do usuário robusta e confiável.
+## Áreas de Melhorias Planejadas
+O projeto está em constante evolução, e algumas áreas de melhorias planejadas incluem:
+- Listar passageiros de um determinado voo.
+- Adicionar a função de compra de passagens.
+- Melhorar o layout da aplicação.
+- Adicionar a autenticação de passageiro.
+- Buscar passageiro por CPF.
+- Emitir voucher.
+- Emitir etiqueta da bagagem.
+- Melhorar o código fonte para otimização e manutenibilidade.
 
+## Conclusão
+Esta documentação fornece uma visão abrangente de como o frontend consome a API BackEndAeroQA usando React. Fique atento para futuras atualizações que abordarão essas áreas de melhoria e certifique-se de seguir as boas pr
