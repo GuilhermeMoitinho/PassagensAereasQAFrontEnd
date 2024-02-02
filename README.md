@@ -25,5 +25,11 @@ A edição de um voo é realizada através da página EditarVoo. Os detalhes do 
 ## Cadastro de Passageiro
 O cadastro de passageiro é realizado através da página CadastroDePassageiro. Os dados são enviados à API para persistência.
 
+## Cadastro de Gestor
+Para testar a autenticação de gestor, utilize as seguintes credenciais:
+- **Email:** gestao@gmail.com.br
+- **Senha:** GuilhermeMoitinhoNovoContratado
+
 ## Conclusão
 Esta documentação fornece uma visão abrangente de como o frontend consome a API BackEndAeroQA usando React. Certifique-se de seguir as boas práticas de desenvolvimento e implementar tratamentos de erro apropriados para uma experiência do usuário robusta e confiável.
+
