@@ -17,7 +17,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <Route path="/login" element={<Login />} />
         <Route path="/gestao" element={<PrivateRoute element={<HomeGestor />} />} />
         <Route path="/editar/:vooId" element={<PrivateRoute element={<EditarVoo />} />} />
-        <Route path="/cadastro/passageiro" element={<PrivateRoute element={<CadastroDePassageiro />} />} />
+        <Route path="/cadastro/passageiro"  element={<CadastroDePassageiro />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>,
