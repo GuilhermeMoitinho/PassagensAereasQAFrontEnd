@@ -1,0 +1,29 @@
+.passouAMaoEmMim{
+    transition: 1s all;
+    background-color: rgba(255, 255, 255, 0.678);
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.passouAMaoEmMim input{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 30px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    border: none;
+}
+
+
+.passouAMaoEmMim:hover{
+    background-color: rgba(153, 126, 137, 0.699);
+}
+
+h2, label{
+    color: black;
+    font-weight: bold;
+}

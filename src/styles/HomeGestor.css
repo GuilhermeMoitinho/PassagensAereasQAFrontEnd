@@ -1,0 +1,8 @@
+.passouAMaoEmMim{
+    transition: 1s all;
+    border-radius: 10px;
+}
+
+.passouAMaoEmMim:hover{
+    background-color: rgba(189, 119, 119, 0.619)
+}
