@@ -63,6 +63,8 @@ const Login = () => {
     <div className='container'>
       <h1>Tela de Login</h1>
 
+      <Link to="/">Voltar ao inicio</Link>
+
       <input
         value={email}
         onChange={(e) => setEmail(e.target.value)}
